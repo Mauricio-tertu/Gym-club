@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    max-width: 1100px;
+    padding: 0 2%;
+    display: flex;
+    margin:0 auto ;
+   
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.15);
+    height: 45px;
+}
+
+.logo {
+    color: #ec4141;
+    margin-top: 10px;
+}
+.logo :hover {
+    color: #fff;
+   
+}
+
+.menu-container {
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.menu-container a.active-menu {
+    background-color: #fd0404;
+}
+
+.menu-container a {
+    color:#fff;
+    display: inline-block;
+    margin: 0 10px;
+   padding:0 10px ;
+    text-decoration: none;
+    line-height: 40px;
+    transition: 0.9s;
+}
+
+.menu-container a:hover {
+    color: rgb(255, 17, 0);
+}
+
+.main {
+    position: relative;
+    min-height: 800px;
+    background-size: cover;
+    background-image: url(https://www.feitodeiridium.com.br/wp-content/uploads/2016/08/verdades-sobre-muscula%C3%A7%C3%A3o.jpg);
+    background-position: center;
+   
+}
+
+
+
+.text-chamada {
+    color: #fff;
+    position: absolute;
+    bottom: 300px;
+    left: 10px;
+}
+
+.text-chamada h1 {
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
